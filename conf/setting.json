@@ -1,0 +1,10 @@
+{
+  "name" : "MyDNN",
+  "lr": 1e-4,
+  "batchsize": 128,
+  "is_train" : true,
+  "epoch" : 20,
+  "tf": 1,
+  "savepoint": 5,
+  "dataset" : "dataset/"
+}
