@@ -137,10 +137,11 @@ if __name__ == '__main__':
                                  shuffle=True,
                                  num_workers=1)
     print('==> Building model..')
-    # net = VGG('VGG16')
-    # print(net)
+    net = VGG('VGG16')
+     # print(net)
+    # net = resnet18()
+    # net = MyDNN()
     # net = MyCNN()
-    net = MyDNN()
     print(args.name)
 
     # 如果GPU可用，使用GPU

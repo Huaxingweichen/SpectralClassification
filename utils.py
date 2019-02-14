@@ -19,8 +19,8 @@ def pltline(time, train_acc_list, test_acc_list, loss_list):
     plt.figure(figsize=(10,5))
     plt.suptitle('experiment result', fontsize=13, x=0.5, y=1)
     plt.subplot(1, 2, 1)
-    plt.plot(train_acc_list, '-.',  label='training accuracy', color='black')
-    plt.plot(test_acc_list, '--',  label='test accuracy', color='black')
+    plt.plot(train_acc_list, '--',  label='training accuracy', color='black')
+    plt.plot(test_acc_list,  label='test accuracy', color='black')
     plt.ylim(0,1)
     plt.legend()  # 显示图例
     plt.xlabel('epoch')
@@ -30,8 +30,8 @@ def pltline(time, train_acc_list, test_acc_list, loss_list):
     plt.legend()  # 显示图例
     plt.xlabel('epoch')
     plt.ylabel('value')
-    plt.show()
     plt.savefig('./experiment/{0}/result.png'.format(time))
+    plt.show()
 
 if __name__ == '__main__':
     pltline('1', [55,66,77,88], [44,55,66,77], [3,2,1,0.5])

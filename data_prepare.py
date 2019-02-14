@@ -12,7 +12,7 @@ import torch
 class SpectralData:
     """create dataset from ./dataset/*.mat"""
     def __init__(self):
-        self.data_name = ['M0_5_10_5000', 'M1_5_10_5000', 'M2_5_10_5000', 'M3_5_10_5000', 'M4_5_10_5000']
+        self.data_name = ['M0_15_5000', 'M1_15_5000', 'M2_15_5000', 'M3_15_5000', 'M4_15_5000']
         self.train_test_rate = 0.8 # the rate of train set and test set in all
 
     def dataPrepare(self):
