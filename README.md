@@ -1,6 +1,6 @@
 # SpectralClassification
 
-##Intorduction
+## Intorduction
 
 Use some DNN and CNN networks to classify spectra with different signal-to-noise ratios
 
@@ -16,7 +16,7 @@ extracted by the network is negatively correlated with the sensitivity.
 
 If you have some ideas, please contact me 812116298@qq.com. 
 
-##Dataset
+## Dataset
 
 <a href="http://skyserver.sdss.org/dr15/en/home.aspx">**SDSS**</a> DR14 data sets of m0-m4 with different SNR were used in the experiment
 
@@ -40,25 +40,25 @@ M4|5-10|1658
 M4|10-15|779
 M4|up 15|603
 
-##Network
+## Network
 
-###DNN structure
+### DNN structure
 
 ![DNN structure](img/dnn.png "DNN structure")
 
-###CNN structure
+### CNN structure
 
 ![CNN structure](img/cnn.png "CNN structure")
 
-###VGG-16 structure
+### VGG-16 structure
 
 ![vgg16 structure](img/vgg16.png "vgg16 structure")
 
-###res-18 structure
+### res-18 structure
 
 ![res18 structure](img/res18.png "res18 structure")
 
-##Result
+## Result
 
 DNN 
 
